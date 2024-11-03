@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w2051861_Adil/feedback.css">
+    <title>Feedbabk Form</title>
+</head>
+<body>
+    <div class="form-container">
+        <form id="form" class="form"  action="mailto:aadilaroos4@gmail.com" method="post">
+            <h1>Feedback Form</h1>
+            <div class="form-container2">
+                <h3>Required fields *</h3>
+            </div>
+            
+            <div class="form-container-control">
+                <label for="name">*Enter your name :</label>
+                <input type="text" id="name" placeholder="Enter your name here"/>
+            </div>
+        
+            <div class="form-container-control">
+                <label for="email">*Enter your Email:</label>
+                <input type="text" id="email" placeholder="Enter your email here"/>
+            </div>
+
+            <div class="form-container-control2">
+                <h3>Was this first time visiting?</h3>
+                <input type="radio" id="yes" name="visiting" value="Yes" checked="true">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="visiting" value="No">
+                <label for="no">No</label>
+            </div>
+
+            <div class="form-container-control2">
+                <h3>Was this website informative and easy to navigate through?</h3>
+                <input type="radio" id="yes" name="web-experience" value="Yes" checked="true">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="web-experience" value="No">
+                <label for="no">No</label>
+            </div>
+
+            <div class="form-container-control3" >
+                <h3>If "No", suggest any improvements for the future:</h3>
+                <textarea id="place-01" name="message" rows="3" cols="60" placeholder="Enter Your Comments Here"> </textarea>
+                
+                <br><br>
+            </div>
+
+            <div class="form-container-control2">
+                <h4>How satisfid you are with our service? Choose 1 to 10, with 1 being <br> "Not satisfied at all!!!" and 10 being "Extremly satisfied!"</h4>
+                <label for="1">1</label>
+                <input type="radio" id="1" name="satisfaction" value="1">
+                <label for="2">2</label>
+                <input type="radio" id="2" name="satisfaction" value="2">
+                <label for="3">3</label>
+                <input type="radio" id="3" name="satisfaction" value="3">
+                <label for="4">4</label>
+                <input type="radio" id="4" name="satisfaction" value="4">
+                <label for="5">5</label>
+                <input type="radio" id="5" name="satisfaction" value="5">
+                <label for="6">6</label>
+                <input type="radio" id="6" name="satisfaction" value="6">
+                <label for="7">7</label>
+                <input type="radio" id="7" name="satisfaction" value="7">
+                <label for="8">8</label>
+                <input type="radio" id="8" name="satisfaction" value="8">
+                <label for="9">9</label>
+                <input type="radio" id="9" name="satisfaction" value="9">
+                <label for="10">10</label>
+                <input type="radio" id="10" name="satisfaction" value="10">
+            <div>
+            
+
+                <div class="form-container-control2">
+                    <h3>Would you recommend our service?</h3>
+                    <input type="radio" id="yes" name="recommendation" value="Yes" checked="true">
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="no" name="recommendation" value="No">
+                    <label for="no">No</label>
+                </div>
+                <div class="form-container-control4">
+                    <h3>Would you like to recive updates about the website and any offers?</h3>
+                    <label for="updates"></label>
+                    <select id="updates" name="updates">
+                    <option value="Via Email" selected>Via Email</option>
+                    </select>
+                </div>
+
+                <div class="form-container-control3" >
+                    <h3>Do you have additional questions or requests?</h3>
+                    <textarea id="place-02" name="message" rows="5" cols="60" placeholder="Enter Your Comment Here"> </textarea>
+                    
+                    <br><br>
+                </div>
+             <input type="submit">
+        </form>       
+
+        
+    </div>
+   <script src="w2051861_Adil/feedback.js"></script>
+    
+    
+</body>
+</html> 

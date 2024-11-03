@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="w2051864_Thanugi/gallery.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Edu Reach</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li class="active"><a href="home.html"><i class="fa fa-home"></i> HOME</a></li>
+                    <li><a href="team.html"><i class="fa fa-user-circle"></i>ABOUT</a></li>
+                    <li><a href="shop.html"><i class="fa fa-shopping-bag"></i>SHOP</a></li>
+                    <li><a href="gallery.html"><i class="fa fa-picture-o"></i>GALLERY</a></li>
+                    <li><a href="profile.html"><i class="fa fa-user-circle"></i>PROFILE</a></li>
+                    <li><a href="sitemap.html"><i class="fa fa-map-marker"></i>SITE MAP</a></li>
+                    <li><a href="feedback.html"><i class="fa fa-phone-square"></i>FEEDBACK</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <h1><b>Gallery</b></h1>
+
+
+
+    <div class="full-img" id="fullImgBox">
+        <span class="close" onclick="closeFullImg()">X</span>
+        <button class="prev" onclick="plusSlides(-1)">&#10094; Previous</button>
+        <button class="next" onclick="plusSlides(1)">Next &#10095;</button>
+        <span class="numbers"></span>
+        <img src="" id="fullImg">
+
+        <div class="caption-box" id="caption-box-full">
+            <p1><b></b></p1><br /><br />
+            <p2></p2><br /><br />
+            <p2><a href=""></a></p2>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="img-gallery">
+            <img src="w2051864_Thanugi/img/a1.jpg"
+                onclick="openFullImg(this.src, this.alt, this.nextElementSibling.innerHTML)" class="hover-shadow"
+                alt="2012">
+            <div class="caption-box" id="captions-box-full">
+                <p1><b>Rio+20 Earth Summit</b></p1><br /><br />
+                <p2>The United Nations Conference on Sustainable Development - or Rio+20 - took place in Rio de Janeiro,
+                    Brazil on 20-22 June 2012. It resulted in a focused political outcome document which contains clear
+                    and practical measures for implementing sustainable development.</p2><br /><br />
+                <p2>Visit this link for more information : <a
+                        href=https://sustainabledevelopment.un.org/rio20>https://sustainabledevelopment.un.org/rio20</a>
+                </p2>
+            </div>
+
+            <img src="w2051864_Thanugi/img/a2.jpg"
+                onclick="openFullImg(this.src, this.alt, this.nextElementSibling.innerHTML)" class="hover-shadow"
+                alt="2014">
+            <div class="caption-box">
+                <p1><b>Third International Conference on Small Island Developing States</b></p1><br /><br />
+                <p2>The Third International Conference on Small Island Developing States was held from 1 to 4 September
+                    2014 in Apia, Samoa. It focused the world’s attention on a group of countries that remain a special
+                    case for sustainable development in view of their unique and particular vulnerabilities.
+                </p2><br /><br />
+                <p2>Visit this link for more information : <a
+                        href=https://sustainabledevelopment.un.org/sids2014>https://sustainabledevelopment.un.org/sids2014</a>
+                </p2>
+            </div>
+
+            <img src="w2051864_Thanugi/img/a3.jpg"
+                onclick="openFullImg(this.src, this.alt, this.nextElementSibling.innerHTML)" class="hover-shadow"
+                alt="2015">
+            <div class="caption-box">
+                <p1><b>United Nations Sustainable Development Summit 2015</b></p1><br /><br />
+                <p2>The United Nations summit for the adoption of the post-2015 development agenda was held from 25 to
+                    27 September 2015, in New York and convened as a high-level plenary meeting of the General Assembly.
+                </p2><br /><br />
+                <p2>Visit this link for more information : <a
+                        href=https://sustainabledevelopment.un.org/post2015/summit>https://sustainabledevelopment.un.org/post2015/summit</a>
+                </p2>
+            </div>
+
+            <img src="w2051864_Thanugi/img/a4.jpg"
+                onclick="openFullImg(this.src, this.alt, this.nextElementSibling.innerHTML)" class="hover-shadow"
+                alt="2016">
+            <div class="caption-box">
+                <p1><b>HABITAT III - 17-20 OCTOBER 2016-The United Nations Conference on Housing and Sustainable Urban
+                        Development</b></p1><br /><br />
+                <p2>In Resolution 66/207 and in line with the bi-decennial cycle (1976, 1996, and 2016), the United
+                    Nations General Assembly decided to convene the Habitat III Conference to reinvigorate the global
+                    commitment to sustainable urbanization, to focus on the implementation of a New Urban Agenda,
+                    building on the Habitat Agenda of Istanbul in 1996.</p2><br /><br />
+                <p2>Visit this link for more information : <a href=https://habitat3.org>https://habitat3.org/</a></p2>
+            </div>
+
+            <img src="w2051864_Thanugi/img/a5.jpg"
+                onclick="openFullImg(this.src, this.alt, this.nextElementSibling.innerHTML)" class="hover-shadow"
+                alt="2017">
+            <div class="caption-box">
+                <p1><b>Side Event on Voluntary Commitments for the Ocean Conference</b></p1><br /><br />
+                <p2>One of the key outcomes of The Ocean Conference is a list of voluntary commitments to advance the
+                    implementation of SDG 14. To stimulate the registration of voluntary commitments, the side event
+                    will explain what voluntary commitments are and who can register them, as well as displaying
+                    practical examples and demonstrating the online registration process.</p2><br /><br />
+                <p2>Visit this link for more information : <a
+                        href=https://sdgs.un.org/events/side-event-voluntary-commitments-ocean-conference-7451>https://sdgs.un.org/events/side-event-voluntary-commitments-ocean-conference-7451</a>
+                </p2>
+            </div>
+
+            <img src="w2051864_Thanugi/img/a6.jpg"
+                onclick="openFullImg(this.src, this.alt, this.nextElementSibling.innerHTML)" class="hover-shadow"
+                alt="2018">
+            <div class="caption-box">
+                <p1><b>UN-IATT-WS6 Capacity Building Course on Technology for Development: Innovation Policies for SDGs
+                        in the Arab Region</b></p1><br /><br />
+                <p2>In the framework of the UN Inter-Agency Task Team (IATT) on Science, Technology and Innovation (STI)
+                    -Work Stream 6 (WS6), seven UN agencies namely UNDESA, UNIDO, UNESCO, UNCTAD, ITU, WIPO and
+                    UNU-Merit have developed a 5-day capacity building course on the framework, policies and measurement
+                    of innovation in the context of SDGs. The course aims to introduce the participants to the five
+                    aspects of innovation: policies, conceptual framework of the STI for SDGs, design and
+                    implementation, as well as monitoring and evaluation.</p2><br /><br />
+                <p2>Visit this link for more information : <a
+                        href=https://sustainabledevelopment.un.org/rio20>https://sustainabledevelopment.un.org/rio20</a>
+                </p2>
+            </div>
+
+            <img src="w2051864_Thanugi/img/a7.jpg"
+                onclick="openFullImg(this.src, this.alt, this.nextElementSibling.innerHTML)" class="hover-shadow"
+                alt="2019">
+            <div class="caption-box">
+                <p1><b>Climate Action Summit 2019 - Transformative Water Actions to Accelerate Achievement of Global
+                        Climate Change-related Goals</b></p1><br /><br />
+                <p2>The United Nations Conference on Sustainable Development - or Rio+20 - took place in Rio de Janeiro,
+                    Brazil on 20-22 June 2012. It resulted in a focused political outcome document which contains clear
+                    and practical measures for implementing sustainable development.</p2><br /><br />
+                <p2>Visit this link for more information : <a
+                        href=https://sdgs.un.org/events/climate-action-summit-2019-transformative-water-actions-accelerate-achievement-global>https://sdgs.un.org/events/climate-action-summit-2019-transformative-water-actions-accelerate-achievement-global</a>
+                </p2>
+            </div>
+
+            <img src="w2051864_Thanugi/img/a8.jpg"
+                onclick="openFullImg(this.src, this.alt, this.nextElementSibling.innerHTML)" class="hover-shadow"
+                alt="2020">
+            <div class="caption-box">
+                <p1><b>Biodiversity and ecosystems</b></p1><br /><br />
+                <p2>The Sustainable Development Goal 15 of the 2030 Agenda for Sustainable Development is devoted to
+                    “protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests,
+                    combat desertification, and halt and reverse land degradation and halt biodiversity
+                    loss”.Furthermore, the Future We Want reiterated the importance of implementing the Strategic Plan
+                    for Biodiversity 2011-2020, and achieving the Aichi Biodiversity Targets adopted at the Tenth
+                    Conference of the Parties to the Convention. Biodiversity was discussed by the Commission on
+                    Sustainable Development on several occasions, and was one of the themes of the 2012/2013 two-year
+                    cycle.</p2><br /><br />
+                <p2>Visit this link for more information : <a
+                        href=https://sustainabledevelopment.un.org/rio20>https://sustainabledevelopment.un.org/rio20</a>
+                </p2>
+            </div>
+
+
+            <img src="w2051864_Thanugi/img/a9.jpg"
+                onclick="openFullImg(this.src, this.alt, this.nextElementSibling.innerHTML)" class="hover-shadow"
+                alt="2021">
+            <div class="caption-box">
+                <p1><b>United Nations Statistical Commission</b></p1><br /><br />
+                <p2>The 52nd session of the United Nations Statistical Commission will be held in a scaled down virtual
+                    format, consisting of four two-hour informal meetings, on 1 to 3 and 5 March 2021 from 9:00 AM to
+                    11:00 AM Eastern. This decision was taken in light of the continued and ongoing impact of the
+                    COVID-19 pandemic on the working arrangements for the subsidiary bodies of the United Nations
+                    Economic and Social Council (ECOSOC).</p2><br /><br />
+                <p2>Visit this link for more information : <a
+                        href=https://sustainabledevelopment.un.org/rio20>https://sustainabledevelopment.un.org/rio20</a>
+                </p2>
+            </div>
+
+            <img src="w2051864_Thanugi/img/a10.jpg"
+                onclick="openFullImg(this.src, this.alt, this.nextElementSibling.innerHTML)" class="hover-shadow"
+                alt="2022">
+            <div class="caption-box">
+                <p1><b>Transforming Commitments into Action – Delivering on the Outcomes of the High-Level Dialogue on
+                        Energy: Launch of UN-Energy Plan of Action and the Energy Compact Action Network</b></p1>
+                <br /><br />
+                <p2>Overview: Building on the momentum from the 2021 High-level Dialogue on Energy, the UN took a major
+                    step to catalyse the large-scale action and support needed for the transition to clean, affordable
+                    energy for all and net-zero emissions by launching two major initiatives on 4 May 2022 that aim to
+                    deliver on the commitments outlined in the Global Roadmap for Accelerated SDG 7 Action.</p2>
+                <br /><br />
+                <p2>Visit this link for more information : <a
+                        href=https://sdgs.un.org/events/transforming-commitments-action-delivering-outcomes-high-level-dialogue-energy-launch-un>https://sdgs.un.org/events/transforming-commitments-action-delivering-outcomes-high-level-dialogue-energy-launch-un</a>
+                </p2>
+            </div>
+
+            <img src="w2051864_Thanugi/img/a11.jpg"
+                onclick="openFullImg(this.src, this.alt, this.nextElementSibling.innerHTML)" class="hover-shadow"
+                alt="2023">
+            <div class="caption-box">
+                <p1><b>Expert Group Meeting on Sustainable Transport</b></p1><br /><br />
+                <p2>The United Nations Department for Economic and Social Affairs (DESA) and the United Nations Economic
+                    Commission for Europe (ECE) organized the Expert Group Meeting on Sustainable Transport in Geneva,
+                    Switzerland, from 22 to 23 November 2023, followed by the World Sustainable Transport Day
+                    celebrations on 24 November.</p2><br /><br />
+                <p2>Visit this link for more information : <a
+                        href=https://sustainabledevelopment.un.org/rio20>https://sustainabledevelopment.un.org/rio20</a>
+                </p2>
+            </div>
+
+            <img src="w2051864_Thanugi/img/a12.jpg"
+                onclick="openFullImg(this.src, this.alt, this.nextElementSibling.innerHTML)" class="hover-shadow"
+                alt="2024">
+            <div class="caption-box">
+                <p1><b>UN Celebrates the First World Clean Energy Day</b></p1><br /><br />
+                <p2>On January 26, the United Nations will mark its very first International Day of Clean Energy,
+                    representing a significant milestone in our collective commitment to a sustainable future. Adopted
+                    by the UN General Assembly, this day signifies a global celebration of clean energy and its pivotal
+                    role in achieving a just and inclusive energy transition.</p2><br /><br />
+                <p2>Visit this link for more information : <a
+                        href=https://sdgs.un.org/events/un-celebrates-first-world-clean-energy-day-54576>https://sdgs.un.org/events/un-celebrates-first-world-clean-energy-day-54576</a>
+                </p2>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="select">
+        <div class="colors">
+            <label for="textcolorpick">Text Color:</label>
+            <input type="color" id="text-color">
+        </div>
+        <div class="colors">
+            <label for="backgroundcolorpick">Background Color:</label>
+            <input type="color" id="background-color">
+        </div>
+        <div class="colors">
+            <label for="themecolorpick">Theme Color:</label>
+            <input type="color" id="theme-color">
+        </div>
+        <div class="fonts">
+            <label for="fontpick">Font Type:</label>
+            <select id="font-type">
+                <option value="Arial">Arial</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Cambria">Cambria</option>
+                <option value="Aptos">Aptos</option>
+            </select>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div>
+            <!--<h3>links</h3> -->
+            <ul class="footerlinks">
+                <li><a href="home.html"> HOME</a></li>
+                <li><a href="team.html">ABOUT</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="sitemap.html">SITE MAP</a></li>
+                <li><a href="feedback.html">FEEDBACK</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>
+                <a href="mailto:help@example.com">Email Editor</a>
+            </h3>
+        </div>
+        <div class="col">
+            <h3>Contact Us</h3>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+
+
+        </div>
+
+    </footer>
+    <script>
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+
+        function openFullImg(pic, alt, caption) {
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+            updateDescription(alt, caption);
+        }
+
+        function closeFullImg() {
+            fullImgBox.style.display = "none";
+        }
+
+        function plusSlides(n) {
+            var imgGallery = document.querySelector(".img-gallery");
+            var images = imgGallery.getElementsByTagName("img");
+            var currentImgSrc = fullImg.src;
+            var currentIndex = -1;
+
+            // Find the index of the current image
+            for (var i = 0; i < images.length; i++) {
+                if (images[i].src === currentImgSrc) {
+                    currentIndex = i;
+                    break;
+                }
+            }
+
+            // Calculate the index of the next image
+            var nextIndex = currentIndex + n;
+            if (nextIndex >= images.length) {
+                nextIndex = 0;
+            } else if (nextIndex < 0) {
+                nextIndex = images.length - 1;
+            }
+
+            // Update the full image source with the next image
+            fullImg.src = images[nextIndex].src;
+            updateDescription(images[nextIndex].alt, images[nextIndex].nextElementSibling.innerHTML);
+        }
+
+        function updateDescription(alt, caption) {
+            var captionBox = document.getElementById("caption-box-full");
+            var captionTitle = captionBox.querySelector('p1');
+            var captionText = captionBox.querySelector('p2');
+
+            captionTitle.innerHTML = '<b>' + '</b>';
+            captionText.innerHTML = caption;
+        }
+
+        // Script for applying styles
+        const colorS = document.getElementById('text-color');
+        const backgroundPicker = document.getElementById('background-color');
+        const themePicker = document.getElementById('theme-color');
+        const fontSelector = document.getElementById('font-type');
+
+        colorS.addEventListener('change', applyStyles);
+        backgroundPicker.addEventListener('change', applyStyles);
+        themePicker.addEventListener('change', applyStyles);
+        fontSelector.addEventListener('change', applyStyles);
+
+        function applyStyles() {
+            const textColor = colorS.value;
+            const backgroundColor = backgroundPicker.value;
+            const themeColor = themePicker.value;
+            const selectedFont = fontSelector.value;
+
+            document.body.style.color = textColor;
+            document.body.style.backgroundColor = backgroundColor;
+            // Assuming '.full-img' is the container for the full image and captions
+            document.querySelector('.full-img').style.backgroundColor = themeColor;
+            document.querySelector('.full-img').style.fontFamily = selectedFont;
+        }
+
+        document.querySelectorAll('.img-gallery').forEach((image, index) => {
+            const captions = image.querySelector('.caption-box');
+            image.addEventListener('mouseenter', () => {
+                captions.style.transform = 'translateY(0)';
+            });
+            image.addEventListener('mouseleave', () => {
+                captions.style.transform = 'translateY(100%)';
+            });
+        });
+
+    </script>
+</body>
+
+</html>

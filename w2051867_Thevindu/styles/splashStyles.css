@@ -1,0 +1,66 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: #ced4da;
+}
+
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+
+.info {
+    float: left;
+    padding: 5% 5% 5% 5%;
+
+    img {
+        margin-left: 1%;
+        height: 100px;
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 45px;
+        text-align: left;
+        text-decoration: overline;
+        color: darkblue;
+    }
+
+    h3 {
+        color: rgb(55, 55, 204);
+    }
+
+    p {
+        padding-bottom: 5%;
+        color: rgb(32, 32, 178);
+    }
+}
+
+
+.names {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    p {
+        border: 1px solid gray;
+        border-radius: 10px;
+        width: auto;
+        text-align: center;
+        padding: 1% 0% 1% 0%;
+    }
+}
+
+
+.loaderImage {
+    float: right;
+    height: auto;
+    margin: 15% 5% 15% 5%;
+
+    img {
+        height: 100%;
+        max-width: 100%;
+    }
+}
